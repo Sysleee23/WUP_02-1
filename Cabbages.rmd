@@ -34,13 +34,16 @@ we are explaining a vitamine c numerical variable by by explaining the catagoric
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
-```{r}
-boxplot(VitC~Cult,data=veggy)
-```
+
 
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+
+The catagory C39 looks like it has an overall lower mean for the numerical result of vitamine C. While the C52 catagory had a higher mean of the vitamine C using their cultivation method.
 
 ### Numerical Descriptive Results
 
