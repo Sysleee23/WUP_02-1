@@ -1,7 +1,7 @@
 ---
 title: "Cabbages"
 author: "Syslee Evans "
-date: "May 31, 2022"
+date: "Summer 2022"
 output:
   html_document:
     df_print: paged
@@ -63,5 +63,5 @@ Based in our two sample T test we can infer the the p-value is 0.00000003405  fr
 
 
 # Discussion and Conclusion
-
+The difference between the two catagories we had, cultivation method  c39 and and c52 were found to have a numerical difference of the vitamin C produced in cabbages made. we rejected the null hypothisis after seeing the results of the T test. The C39 had a mean of 51.5. While the c52 had a mean of 64.4 so we would reject the null hyothisis. 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
