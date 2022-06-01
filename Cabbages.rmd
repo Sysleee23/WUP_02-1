@@ -48,6 +48,10 @@ The catagory C39 looks like it has an overall lower mean for the numerical resul
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+The cultivation method C39 had a median of 51.0 while C52 had a median of 64.5. C39 had a mean of 51.5 and C52 had a mean of 64.4 meaning that the cultivation method c52 was more successful in producing a high average of vitamine C.
 
 ## Inferential Results
 
