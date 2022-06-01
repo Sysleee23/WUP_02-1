@@ -26,7 +26,7 @@ $H_A$: There is a difference between the vitC based on the cultivation method c3
 
 
 # Methods
-
+we are explaining a vitamine c numerical variable by by explaining the catagorical variable cultivation. We will use the T-test to comare the mean of the two vitamine C from the 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 # Results
@@ -34,6 +34,9 @@ $H_A$: There is a difference between the vitC based on the cultivation method c3
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
 
 ### Graphical Descriptive Results
 
