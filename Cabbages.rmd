@@ -54,7 +54,11 @@ favstats(VitC~Cult,data=veggy)
 The cultivation method C39 had a median of 51.0 while C52 had a median of 64.5. C39 had a mean of 51.5 and C52 had a mean of 64.4 meaning that the cultivation method c52 was more successful in producing a high average of vitamine C.
 
 ## Inferential Results
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
 
+Based in our two sample T test we can infer the the p-value is 0.00000003405  from this we can reject the null hypothisis because the probability of the sample result was very unlikley, meaning that the null hypothisis is falese. 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
